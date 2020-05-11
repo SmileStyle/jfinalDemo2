@@ -1,0 +1,18 @@
+jdbcUrl = jdbc:mysql://localhost/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password =
+devMode = true
+
+
+rabbitmq_host=106.12.42.247
+rabbitmq_port=5672
+rabbitmq_username=wm
+rabbitmq_password=123456
+#rabbitmq_VirtualHost=/vhost_A
+
+#普通队列
+rabbitCommonQuene=queue_name
+#延时队列
+rabbitDelyQuene=testdelyquene
+#日志队列
+rabbitLogQuene=logQuene
